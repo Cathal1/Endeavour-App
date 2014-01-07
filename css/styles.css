@@ -1,6 +1,7 @@
 body
 {
 	margin: 0;
+	background-color: #18b3e7;
 }
 
 h1
@@ -10,6 +11,37 @@ h1
 	color: #144b69;
 	font-size: 50px;
 	text-align: center;
+}
+
+h2
+{
+	margin: 0;
+	font-family: "Nova Square", cursive;
+	color: #18b3e7;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+
+.textheading
+{
+	padding-top: 20px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -25,7 +57,7 @@ and (max-device-width : 480px) {
 
 	#contentone{
 		width: 100%;
-		height: 300px;
+		height: 370px;
 		background-color: #144b69;
 	}
 	#contenttwo{
@@ -47,7 +79,7 @@ and (min-width : 321px) {
 
 	#contentone{
 		width: 100%;
-		height: 300px;
+		height: 370px;
 		background-color: #144b69;
 	}
 	#contenttwo{
@@ -69,7 +101,7 @@ and (max-width : 320px) {
 
 	#contentone{
 		width: 100%;
-		height: 300px;
+		height: 370px;
 		background-color: #144b69;
 	}
 
