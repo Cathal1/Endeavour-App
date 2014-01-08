@@ -27,6 +27,10 @@ h2
   overflow: hidden;
   visibility: hidden;
   position: relative;
+  height: 280px;
+  width: 350px;
+  border-radius: 3px;
+  overflow: hidden;
 }
 .swipe-wrap {
   overflow: hidden;
@@ -45,6 +49,10 @@ h2
 }
 
 /*navigation*/
+#primary_nav {
+	margin-top: 5px;
+}
+
 #primary_nav ul {
     list-style: none;
     background: #e36867;

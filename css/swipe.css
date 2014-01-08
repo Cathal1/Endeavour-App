@@ -63,4 +63,6 @@ html, body {
   border-radius: 3px;
   border: 1px solid;
   border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+  overflow: hidden;
+
 }
