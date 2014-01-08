@@ -22,7 +22,14 @@ h2
 	font-size: 30px;
 }
 
+.mytext {
+	text-align: center;
+	margin: 0;
+	font-family: "Nova Square", cursive;
+	color: #18b3e7;
+}
 
+/* SwipeJS CSS*/
 .swipe {
   overflow: hidden;
   visibility: hidden;
@@ -39,7 +46,7 @@ h2
   width:100%;
   position: relative;
 }
-
+/*End of SwipeJS CSS*/
 
 .textheading
 {
