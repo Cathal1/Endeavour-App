@@ -29,8 +29,6 @@ h2
   position: relative;
   height: 280px;
   width: 300px;
-  border-radius: 3px;
-  overflow: hidden;
 }
 .swipe-wrap {
   overflow: hidden;
